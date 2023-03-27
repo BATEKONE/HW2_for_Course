@@ -1,0 +1,252 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Oswald', sans-serif;
+}
+
+/* MENU */
+
+.header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 0 100px;
+}
+
+.menu_ul{
+  display: flex;
+  list-style-type: none;
+  column-gap: 30px;
+}
+
+.menu_li{
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.menu_link{
+  text-decoration: none;
+
+  color: #000000;
+}
+
+.menu_link:hover{
+  color:#8f6868;
+  border-bottom: #817070 2px solid;
+}
+
+.menu_logo{
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  color: #000000;
+}
+
+/* BEFORE MENU */
+
+.image_and_text1{
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background: url("https://source.unsplash.com/vSuQJKZkt4U/1920x1080") no-repeat fixed center;
+  background-size: cover;
+  padding: 270px 0;
+}
+
+.text_header1{
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 89px;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: #817070 16px solid;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  color: #FFFFFF;
+}
+
+/*Можно еще таким способом, но это свистнутый из инета, а не сделанный самим*/
+
+/*.image_and_text1 h1:after{*/
+/*  content: '';*/
+/*  width: 80px;*/
+/*  height: 10px;*/
+/*  left: 167px;*/
+/*  top: 95px;*/
+/*  position: absolute;*/
+/*  display: inline-block;*/
+
+/*  background-color: #817070;*/
+/*}*/
+
+/* STORY AND BEFORE BLOG */
+
+.story_and_after{
+  padding: 57px 0;
+}
+
+.text_header2{
+  text-align: center;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 53px;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.image_and_text2 img{
+  width: 600px;
+  height: 400px;
+  padding: 60px 40px 0 80px;
+}
+
+.image_and_text2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image_and_text2 p{
+  text-align: left;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #000000;
+}
+
+/* BLOG AND BEFORE FOOTER */
+
+.text_header3{
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 60px;
+
+  color: #000000;
+}
+
+.blog_and_after_header_and_other{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px 65px 20px;
+  column-gap: 20px;
+}
+
+.coffee_news{
+  display: grid;
+  justify-items: center;
+  row-gap: 30px;
+  padding: 20px 0;
+}
+
+.coffee_news:hover{
+  box-shadow: 0 10px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.coffee_news_header{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.coffee_news img{
+  width: 325px;
+  height: 216px;
+}
+
+.coffee_news p{
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  margin: 0 30px;
+
+  color: #000000;
+}
+
+/* FOOTER */
+
+.contact{
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  row-gap: 50px;
+  padding: 35px 0;
+
+  background: #817070;
+}
+
+.subscr{
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 53px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.contact input{
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+  padding: 15px 94px;
+
+  color: #FFFFFF;
+  background: #817070;
+  border: 3px solid #FFFFFF;
+}
+
+.submit{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 10px;
+  padding: 13px 34px;
+
+  color: #817070;
+  background: #FFFFFF;
+  border: 3px solid #FFFFFF;
+}
+
+.submit:hover{
+  font-size: 22px;
+
+  box-shadow:0 10px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.copy{
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 30px 0;
+  width: 100%;
+
+  color: #000;
+  background:#FFF;
+}
